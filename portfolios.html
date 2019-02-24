@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO">
+    <title>Portfolios</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-responsive-collapse dropdown-toggle navbar-expand-lg navbar-light fixed-top" id="mainNav" role="navigation">
+        <div class="container">
+            <a href="/">
+                <img src="/img/yakko.png" id="logo">
+            </a>
+            <span id="logo-area">
+                <a href="https://github.com/yakkomajuri/" target="_blank">
+                    <img src="/img/github-logo.png" class="logos">
+                </a>
+                <a href="https://www.linkedin.com/in/yakko-majuri/" target="_blank">
+                    <img src="/img/linkedin-logo.png" class="logos">
+                </a>
+                <a href="https://medium.com/@yakko.majuri" target="_blank">
+                    <img src="/img/medium-logo.png" class="logos">
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <span id="spacer"></span>
+    <br>
+    <br>
+    <div id="experience">
+        <p class="menu-extras">
+            <a href="/bio">
+                Bio
+            </a>
+            <span id="1"></span>|
+            <a href="/professional">Professional Experience</a>
+            <span id="2"></span>|
+            <a href="/projects">Projects</a>
+            <span id="3"></span>|
+            <a href="/skills">Skills</a>
+            <span id="4"></span>|
+            <a href="/portfolios">
+                <b>Portfolios</b>
+            </a>
+        </p>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div id="port-main">
+        <center>
+            <a href="/websites">
+            <img src="/img/websites.png" class="port-img" style="width: 500px; height: 300px; margin-right:50px;"> 
+            <span id="web1" class="hidden"></span> </a>
+            <a href="/designs">
+            <img src="/img/design.png" class="port-img" style="width: 500px; height: 300px;">
+            <span id="des1" class="hidden"></span> </a>
+            <br>
+            <br>
+            <span class="title" id="5" style="margin-right:380px;">Websites Built</span>
+            <span class="title" id="6" style="margin-left: 20px;">Marketing Designs</span>
+           <div id="space">
+           </div>
+           <a href="https://www.flickr.com/photos/142286359@N04/albums/72157689881248893" target="_blank">
+            <img src="/img/photo.png" id="resp" class="port-img" style="width: 500px; height: 300px; margin-right:50px;">
+            <span id="pho1" class="hidden"></span> </a>
+            <a href="/logos">
+            <img src="/img/logos.png" class="port-img" style="width: 500px; height: 300px;">
+            <span id="log1" class="hidden"></span> </a>
+            <br>
+            <br>
+            <span class="title" id="7" style="margin-right:380px;">Photography</span>
+            <span class="title" id= "8" style="margin-left: 20px;">Logo Designs</span>
+            <br><br><p>P.S. For code and writing portfolios, please refer to my GitHub and Medium pages.</p><br>
+
+        </center>
+    </div>
+
+
+    <script>
+
+
+        if (outerWidth < 600) {
+            responsiveNav();
+        }
+
+        function responsiveNav() {
+            for (i = 5; i < 9; i++) {
+                document.getElementById(i).innerHTML = "";
+            }
+            document.getElementById("spacer").innerHTML += "<hr><br><br>";
+            document.getElementById("web1").innerHTML = "<br>Websites Built<br><br>";
+            document.getElementById("log1").innerHTML = "<br>Logo Designs<br><br>";
+            document.getElementById("pho1").innerHTML = "<br>Photography<br><br>";
+            document.getElementById("des1").innerHTML = "<br>Marketing Designs<br><br>";
+        }
+
+    </script>
+
+</body>
+
+</html>

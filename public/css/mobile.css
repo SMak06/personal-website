@@ -1,0 +1,493 @@
+#logo {
+    max-width: 200px;
+    margin-left: 18%;
+}
+
+.logos {
+    max-width: 100px;
+    max-height: 30px;
+    margin-left: 5%;
+    margin-bottom: 0.5%;
+}
+
+#logo-area {
+    padding-left: 25%;
+}
+
+nav {
+    padding-top: 3%;
+}
+
+#banner, #main-img {
+    max-width: 85%;
+    max-height: 500px;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experience {
+    text-align: center;
+}
+
+#menu-txt, a:link {
+    text-decoration: none;
+    color: #5e5c5c;
+}
+
+#menu-txt, a:hover {
+    color: #a3a3a3 !important;
+}
+
+#menu-txt, a:visited {
+    color: #5e5c5c;
+}
+
+#menu-txt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #ccc9c9;
+}
+
+#bio-header {
+    margin-left: 30%;
+}
+
+h1 {
+    letter-spacing: 4px !important;
+    margin-left: -2%;
+    margin-top: -0.5%;
+}
+
+#profile {
+    max-height: 400px;
+    margin-left:50%;
+    margin-top: 3%;
+}
+
+.menu-extras {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #ccc9c9;
+}
+
+#bio-main {
+    max-width: 1100px;
+}
+
+#bio-main, p {
+    margin-left: -2%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: 'Aileron', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bio-main, #left {
+    width: 480px;
+    float: left;
+}
+
+#bio-main, #right {
+    width: 620px;
+    float: left;
+}
+
+#bio-title {
+    font-family: "Lato";
+    margin-left: 27%;
+    margin-top: -0.5%;
+}
+
+.title {
+    font-family: 'Aileron', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.title:hover {  
+    color: #5e5c5c;
+}
+
+.port-img:hover {
+    filter: contrast(80%);
+}
+
+#space {
+    height: 30px !important;
+}
+
+.log {
+    width: 600px !important;
+    height: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#d6 {
+    height: 470px;
+}
+
+#d7 {
+    height: 470px;
+}
+
+.web {
+    width: 700px;
+    height: 475px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#websites-main, h2 {
+    font-family: 'Aileron', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2.6px;
+    color:  black;
+    font-weight: bold;
+}
+
+#websites-main, h4 {
+    color:   #636983 !important;
+}
+
+#websites-main, h5 {
+    color:   #8b90a7 !important;
+}
+
+#websites-main, h2:hover {
+    color: #636988;
+}
+#skills, h2:hover {
+    color: black !important;
+}
+
+.rectangle {
+    height: 250px;
+    width: 430px;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    padding-bottom: 40px;
+    padding-top: 10px;
+  }
+/*
+body {
+    background-color: rgb(251, 251, 253);
+} */
+
+#status {
+    width: 450px;
+}
+
+#stat {
+    height: 78px;
+    width: 500px;
+    margin-top: -50px;
+}
+
+#contact {
+    margin-left: 50%;
+    font-size: 16px;
+}
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: white !important;
+    border-radius: 25px;
+    border-color: #F0F2FF;
+    border-width: 1px !important;
+    border-style: solid;
+    margin-left: 65%;
+    margin-top: 4%;
+}
+
+.rectangle:hover {
+  /* background-image: linear-gradient(to right, rgb(255, 255, 255) , #e9f4fc);  */
+  background-color: rgb(248, 248, 248);
+}
+
+#projects-main {
+    max-width: 960px;
+    margin-top: -3%;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: #100858;
+}
+
+h6 {
+    margin-top: 16px;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.projects-body {
+    font-family: 'Aileron', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.rectangle-long {
+        height: 165px;
+        padding-top: 10px;
+        width: 800px;
+        background-color: transparent;
+        border-width: 0px;
+        border-color: black;
+        border-style: solid;
+        
+}
+
+.rectangle-long:hover {
+    background-color: rgb(228, 228, 228);
+    
+}
+
+.experience-logos {
+    max-height: 150px;
+    float: right;
+}
+
+.experience-titles {
+    float: left;
+    margin-left: 2%;
+}
+
+.exp-location {
+    margin-top: -10px;
+    float:left;
+    margin-left: 38px;
+}
+
+.exp-txt {
+    font-size: 12px;
+    float:left;
+    margin-left: 30px;
+}
+
+.exp-top {
+    margin-left: -20px;
+}
+
+.rec-loc {
+    float: left;
+    margin-top: 60px;
+    margin-left: -190px;
+}
+
+.rec-bot {
+    font-size: 12px;
+    float:left;
+    padding-left: 38px;
+}
+
+#img2 {
+    margin-right: 70px;
+}
+
+#bbh-top {
+    float: left !important;
+    margin-top: 0px !important;
+}
+
+.hau-bot {
+    font-size: 12px !important;
+    float: left !important;
+    margin-left: 20px;
+}
+
+#img4 {
+    margin-right: 80px;
+}
+
+#img5 {
+    margin-right: 90px;
+}
+
+/* LightBox */
+
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  
+  #light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 600px;
+    max-height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+  #boxclose {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #222222;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  
+  .boxclose:before {
+    content: "×";
+  }
+  
+  #fade:hover ~ #boxclose {
+    display:none;
+  }
+  
+  .test:hover ~ .test2 {
+    display: none;
+  }
+
+@font-face {
+    font-family: "Lato";
+    src: url(/fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url(/fonts/aileron.thin.otf) format("truetype");
+}
+
+    #logo-area {
+        padding-left: 0%!important;
+    }
+
+    .logos {
+        max-width: 20px!important;
+        margin-bottom: 10%!important;
+    }
+
+    #logo {
+        margin-left: 7%!important;
+        margin-bottom: 5%!important;
+    }
+
+    #menu-txt, a:link {
+        text-align: center !important;
+    }
+
+    #menu-txt {
+        color: white !important;
+    }
+
+    .menu-extras {
+        color: #ccc9c9 !important;
+        margin-top: -10% !important;
+    }
+    #profile {
+        margin-top: -5% !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #bio-main, #left {
+        width: 100% !important;
+    }
+    
+    #bio-main, #right {
+        width: 100% !important;
+    }
+
+    #bio-title {
+        margin-left: 26.5% !important;
+        margin-top: 4% !important;
+    }
+
+    #bio-main, p {
+        margin-left: 2% !important;
+    }
+
+    .port-img {
+        width: 367px !important;
+        height: 220px !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    #space {
+        height: 0px !important; 
+    }
+
+    #resp {
+        margin-top: -27% !important;
+    }
+    
+    .hidden {
+        font-family: 'Aileron', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+        font-size: 25px !important;
+        margin-top: 5% !important;
+    }
+
+    .log {
+        width: 350px !important;
+        height: 200px !important;
+    }
+
+    #d6 {
+        height: 320px !important;
+    }
+    
+    #d7 {
+        height: 320px !important;
+    }
+
+    #websites-main {
+        margin-top: -5%;
+    }
+
+    #projects-main {
+        max-width: 800px !important;
+        margin-top: -18% !important;
+    }
+    
+    .blocks {
+        max-width: 360px !important;
+        margin-left: -2% !important;
+    }
+    #prof-main {
+        width: 50px !important;
+    }
+
+    #contact {
+        margin-left: 13% !important;
+        font-size: 16px !important;
+    }
+
+
